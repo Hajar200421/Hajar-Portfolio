@@ -1,0 +1,33 @@
+[
+  {
+    "company": "Empower",
+    "role": "Information Systems Intern",
+    "period": "Jul 2025 - Nov 2025",
+    "type": "Internship",
+    "description": "Completed a cooperative training program within the Technical Solutions department, contributing to business analysis, requirements documentation, user stories, product backlog management, UI design, and digital solution development.",
+    "skills": [
+      "Business Analysis",
+      "Microsoft Word",
+      "Claude AI",
+      "Microsoft Excel",
+      "Figma"
+    ]
+  },
+  {
+    "company": "Princess Nourah bint Abdulrahman University",
+    "role": "Bachelor of Information Systems",
+    "period": "2021 - 2025",
+    "type": "Education",
+    "description": "Graduated with a Bachelor's degree in Information Systems. Completed academic projects in business analysis, data analytics, UI/UX design, system analysis, and software development.",
+    "skills": [
+      "Canva",
+      "Microsoft Office",
+      "SQL",
+      "Visual Studio",
+      "HTML",
+      "CSS",
+      "Figma",
+      "System modeling"
+    ]
+  }
+]

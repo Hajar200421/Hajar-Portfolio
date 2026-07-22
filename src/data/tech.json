@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "title": "Business Analysis",
+      "skills": [
+        { "name": "Requirements Analysis", "icon": "mdi:file-search-outline" },
+        { "name": "BRD Documentation", "icon": "mdi:file-document-edit-outline" },
+        { "name": "User Stories", "icon": "mdi:card-text-outline" },
+        { "name": "Agile Collaboration", "icon": "mdi:lightning-bolt-outline" },
+        { "name": "UI/UX Collaboration", "icon": "mdi:palette-outline" }
+      ]
+    },
+
+    {
+      "title": "Technical Skills",
+      "skills": [
+        { "name": "Systems Modeling", "icon": "mdi:graph-outline" },
+        { "name": "SQL", "icon": "skill-icons:mysql-dark" },
+        { "name": "PostgreSQL", "icon": "skill-icons:postgresql-dark" },
+        { "name": "Microsoft Excel", "icon": "vscode-icons:file-type-excel" },
+        { "name": "Power BI", "icon": "mdi:chart-bar" },
+        { "name": "HTML", "icon": "skill-icons:html" },
+        { "name": "CSS", "icon": "skill-icons:css" }
+      ]
+    },
+
+    {
+      "title": "Tools",
+      "skills": [
+        { "name": "Microsoft Office", "icon": "mdi:microsoft-office" },
+        { "name": "Visual Studio", "icon": "skill-icons:visualstudio-dark" },
+        { "name": "Claude AI", "icon": "mdi:robot-outline" },
+        { "name": "Canva", "icon": "mdi:brush-variant" },
+        { "name": "Figma", "icon": "skill-icons:figma-dark" },
+        { "name": "Firebase", "icon": "vscode-icons:file-type-firebase" }
+      ]
+    },
+
+    {
+      "title": "Soft Skills",
+      "skills": [
+        { "name": "Analytical Thinking", "icon": "mdi:brain" },
+        { "name": "Problem Solving", "icon": "mdi:lightbulb-on-outline" },
+        { "name": "Attention to Detail", "icon": "mdi:magnify" },
+        { "name": "Communication", "icon": "mdi:account-voice" },
+        { "name": "Adaptability", "icon": "mdi:sync" },
+        { "name": "Teamwork", "icon": "mdi:account-group-outline" },
+        { "name": "Self Learning", "icon": "mdi:school-outline" },
+        { "name": "Time Management", "icon": "mdi:clock-outline" }
+      ]
+    }
+  ]
+}

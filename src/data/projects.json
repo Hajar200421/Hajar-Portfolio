@@ -1,0 +1,63 @@
+
+[
+  {
+    "title": "Rafeeq Application",
+    "description": "Developed a mobile application for Alzheimer's caregivers to simplify patient management, medication reminders, medical equipment requests, and communication with healthcare support. This project was developed in collaboration with the Saudi Alzheimer's Disease Association.",
+    "images": [
+      "Rafeeq-01.jpeg",
+      "Rafeeq-02.jpeg",
+      "Rafeeq-03.jpeg",
+      "Rafeeq-04.jpeg"
+    ],
+   "tech": [
+    "Flutter",
+    "Firebase",
+    "Figma",
+    "Visual Studio",
+    "Canva"
+  ],
+  "platforms": ["android"],
+  "link": "#",
+  "category": "Mobile App"
+  },
+  {
+    "title": "Retail Sales Performance Dashboard",
+    "description": "Designed and developed an interactive Power BI dashboard to analyze retail sales performance using DAX measures, KPI cards, and dynamic visualizations. The dashboard provides insights into sales trends, profitability, product performance, customer segments, and geographical analysis to support data-driven decision-making.",
+    "images": [
+      "powerbi-01.png",
+      "powerbi-02.png",
+      "powerbi-03.png",
+      "powerbi-04.png"
+    ],
+    "tech": ["Power BI", "DAX", "Power Query", "Excel"],
+    "platforms": ["web"],
+    "link": "#",
+    "category": "Data Analytics"
+  },
+  
+  {
+    "title": "Retail Sales Dashboard (Excel)",
+    "description": "Built an interactive Excel dashboard to analyze retail sales using PivotTables, PivotCharts, slicers, and data visualization techniques to monitor sales performance and identify business trends.",
+    "images": [
+      "Excel-01.png"
+    ],
+    "tech": ["Microsoft Excel", "PivotTables", "PivotCharts"],
+    "platforms": ["web"],
+    "link": "#",
+    "category": "Data Analytics"
+  },
+  {
+    "title": "Laundry Service UI/UX Design",
+    "description": "Designed a user-friendly laundry service interface in Figma, focusing on intuitive navigation, user experience, and modern mobile application design principles.",
+    "images": [
+      "HCI-01.png",
+      "HCI-02.png",
+      "HCI-03.png",
+      "HCI-04.png"
+    ],
+    "tech": ["Figma", "UI Design", "UX Design"],
+    "platforms": ["web"],
+    "link": "#",
+    "category": "UI/UX Design"
+  }
+]

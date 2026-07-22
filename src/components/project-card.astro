@@ -1,0 +1,124 @@
+---
+import { Icon } from 'astro-icon/components';
+import { Image } from 'astro:assets';
+import { resolveAssetImage } from '../utils/images';
+
+const { project } = Astro.props;
+
+const firstImage = await resolveAssetImage(project.images[0]);
+---
+
+<div class="project-card group relative bg-accent/5 border border-accent/10 rounded-2xl overflow-hidden hover:border-accent/40 transition-all duration-500">
+
+  <div class="aspect-video overflow-hidden relative bg-background/30 flex items-center justify-center">
+  {
+    firstImage ? (
+      <Image
+        src={firstImage}
+        alt={project.title}
+        class="w-full h-full object-contain p-2 bg-white transition-all duration-500 group-hover:scale-105"
+      />
+    ) : (
+      <img
+        src="/placeholder.jpeg"
+        alt={`${project.title} placeholder`}
+        class="w-full h-full object-cover"
+      />
+    )
+  }
+</div>
+
+    <div class="absolute top-3 right-3 flex gap-2 z-20">
+      {project.platforms.map((p: string) => (
+        <div class="p-1.5 bg-background backdrop-blur-md rounded-lg border border-accent/10 text-maintext">
+          <Icon name={`mdi:${p}`} class="w-4 h-4" />
+        </div>
+      ))}
+    </div>
+  
+
+  <div class="p-6 space-y-4">
+    <div class="flex justify-between items-start">
+      <div>
+        <span class="text-accent text-[10px] uppercase tracking-widest font-bold">
+          {project.category}
+        </span>
+
+        <h3 class="text-xl font-heading font-bold text-maintext mt-1">
+          {project.title}
+        </h3>
+      </div>
+
+      <a
+        href={project.link}
+        target="_blank"
+        class="text-accent/75 hover:text-accent transition-colors"
+      >
+        <Icon name="mdi:open-in-new" class="w-6 h-6" />
+      </a>
+    </div>
+
+    <p class="text-subtext text-sm font-body line-clamp-8">
+      {project.description}
+    </p>
+
+    <div class="flex flex-wrap gap-2 pt-2">
+      {project.tech.map((t: string) => (
+        <span class="rounded-md text-[10px] px-2 md:px-4 py-1 bg-accent/5 border border-accent/10 text-accent/80 group-hover:border-accent/40 group-hover:text-accent">
+          {t}
+        </span>
+      ))}
+    </div>
+    {
+  project.images && project.images.length > 0 && (
+    <div class="mt-6">
+
+      <h4 class="text-sm font-semibold text-maintext mb-4">
+        Screenshots
+      </h4>
+
+      <div class="grid grid-cols-2 gap-3">
+
+        {project.images.map(async (image: string) => {
+
+          const imageData = await resolveAssetImage(image);
+
+          return imageData && (
+
+            <Image
+              src={imageData}
+              alt={project.title}
+              class="rounded-xl border border-white/10 hover:border-accent transition duration-300 w-full object-cover"
+            />
+
+          );
+
+        })}
+
+      </div>
+
+    </div>
+  )
+}
+  </div>
+
+</div>
+
+<style is:global>
+.project-card{
+  opacity:0;
+  visibility:hidden;
+  transform:translateY(40px);
+  transition:
+    opacity .8s ease-out,
+    transform .8s cubic-bezier(.16,1,.3,1),
+    visibility .8s;
+  will-change:transform,opacity;
+}
+
+.project-card.reveal{
+  opacity:1!important;
+  visibility:visible!important;
+  transform:translateY(0)!important;
+}
+</style>
