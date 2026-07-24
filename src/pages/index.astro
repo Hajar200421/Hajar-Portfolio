@@ -7,7 +7,7 @@ import Projects from "../components/projects.astro";
 import Contact from "../components/contact.astro";
 import Career from "../components/career.astro";
 import localData from '../data/home.json';
-
+import Certificates from "../components/certificates.astro";
 interface ProfileData {
   webpageTitle: string;
 }
@@ -38,6 +38,7 @@ const { webpageTitle } = data;
 	<Home />
 	<Career />
 	<Projects />
+  <Certificates />
 	<Tech />
 	<Contact />
 </Layout>

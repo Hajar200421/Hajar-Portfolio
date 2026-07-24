@@ -1,0 +1,66 @@
+---
+import { Icon } from "astro-icon/components";
+import certificates from "../data/certificates.json";
+---
+
+<section id="certificates" class="section-container">
+  <div class="container mx-auto">
+    <div class="mb-16">
+      <h2 class="text-3xl md:text-4xl font-heading font-bold text-maintext mb-2 flex items-center gap-4">
+        <span class="text-accent">/</span>
+        Certificates
+      </h2>
+
+      <p class="text-subtext max-w-lg">
+        Professional certificates and completed training that support my
+        knowledge in Information Systems, Business Analysis and Data Analytics.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {
+        certificates.map((certificate) => (
+          <div class="bg-accent/5 border border-accent/10 rounded-2xl overflow-hidden hover:border-accent/40 transition-all duration-300">
+
+            <div class="aspect-[4/3] bg-white flex items-center justify-center overflow-hidden">
+              <img
+                src={`/src/assets/${certificate.image}`}
+                alt={certificate.title}
+                class="w-full h-full object-contain"
+              />
+            </div>
+
+            <div class="p-6 space-y-3">
+              <h3 class="text-xl font-bold text-maintext">
+                {certificate.title}
+              </h3>
+
+              <p class="text-subtext">
+                {certificate.issuer}
+              </p>
+
+              <div class="flex justify-between items-center">
+                <span class="text-accent text-sm">
+                  {certificate.date}
+                </span>
+
+                {
+                  certificate.link !== "#" && (
+                    <a
+                      href={certificate.link}
+                      target="_blank"
+                      class="text-accent hover:text-white"
+                    >
+                      <Icon name="mdi:open-in-new" class="w-6 h-6" />
+                    </a>
+                  )
+                }
+              </div>
+
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

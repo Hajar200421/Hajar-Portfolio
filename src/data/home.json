@@ -1,72 +1,38 @@
 {
-  "name": "John Doe",
+  "name": "Hajar Aloufi",
   "photoUrl": "favicon.svg",
-  "intro": "A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.",
-  "introHtml": "A brief, compelling introduction about who you are and what you do. Mention your core <span class='text-white font-bold'>philosophy</span>, your passion for building digital products, and your drive for creating <span class='text-white font-bold'>efficient</span>, <span class='text-white font-bold'>high-impact</span> solutions.",
-  "webpageTitle": "John Doe",
-  "resumeUrl": "https://example-files.online-convert.com/document/pdf/example.pdf",
+  "intro": "Fresh Information Systems graduate with a strong interest in Business Analysis and Data Analytics. Passionate about understanding business challenges, analyzing data, and delivering practical solutions that support better decision-making and process improvement. Experienced in requirements analysis, BRD documentation, user story creation, and collaborating with cross functional teams to deliver user-focused solutions.",
+
+"introHtml": "Fresh Information Systems graduate with a strong interest in <span class='text-white font-bold'>Business Analysis</span> and <span class='text-white font-bold'>Data Analytics</span>. Passionate about understanding <span class='text-white font-bold'>business challenges</span>, analyzing <span class='text-white font-bold'>data</span>, and delivering practical solutions that support better <span class='text-white font-bold'>decision-making</span> and <span class='text-white font-bold'>process improvement</span>. Experienced in <span class='text-white font-bold'>requirements analysis</span>, <span class='text-white font-bold'>BRD documentation</span>, <span class='text-white font-bold'>user story creation</span>, and collaborating with <span class='text-white font-bold'>cross-functional teams</span> to deliver user-focused solutions.",
+  "webpageTitle": "Hajar Aloufi",
+  "resumeUrl": "/Hajar_aloufi_CV.pdf",
 
   "_comment": "Add your social links below. Leave the 'url' empty to hide the icon. Set 'showInContact' to true or false to control if it appears in the Contact section.",
   "socials": [
     {
       "name": "GitHub",
-      "url": "https://github.com/[YOUR_USER_NAME]",
+      "url": "https://github.com/Hajar200421",
       "icon": "mdi:github",
       "showInContact": true
     },
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/[YOUR_USER_NAME]",
+      "url": "https://linkedin.com/in/hajar-aloufi",
       "icon": "mdi:linkedin",
       "showInContact": true
     },
     {
-      "name": "Leetcode",
-      "url": "#",
-      "icon": "devicon-plain:leetcode",
-      "showInContact": false
-    },
-    {
-      "name": "Behance",
-      "url": "#",
-      "icon": "devicon-plain:behance",
-      "showInContact": false
-    },
-    {
       "name": "Email",
-      "url": "mailto:your-mail@example.com",
+      "url": "mailto:hajaraloufi1@gmail.com",
       "icon": "mdi:email",
       "showInContact": true
     },
     {
       "name": "Whatsapp",
-      "url": "https://wa.me/[YOUR_WHATSAPP_NUMBER]",
+      "url": "https://wa.me/966557068230",
       "icon": "mdi:whatsapp",
       "showInContact": true
-    },
-    {
-      "name": "Facebook",
-      "url": "#",
-      "icon": "mdi:facebook",
-      "showInContact": false
-    },
-    {
-      "name": "Messenger",
-      "url": "#",
-      "icon": "mdi:facebook-messenger",
-      "showInContact": true
-    },
-    {
-      "name": "Instagram",
-      "url": "#",
-      "icon": "mdi:instagram",
-      "showInContact": false
-    },
-    {
-      "name": "Twitter",
-      "url": "#",
-      "icon": "mdi:twitter",
-      "showInContact": false
     }
+  
   ]
 }

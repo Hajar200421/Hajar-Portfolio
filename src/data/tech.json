@@ -1,35 +1,52 @@
 {
   "categories": [
     {
-      "title": "Mobile Development",
+      "title": "Business Analysis",
       "skills": [
-        { "name": "Flutter", "level": 3, "icon": "skill-icons:flutter-dark" },
-        { "name": "Dart", "level": 3, "icon": "skill-icons:dart-dark" },
-        { "name": "Kotlin", "level": 1, "icon": "skill-icons:kotlin-dark" }
+        { "name": "Requirements Analysis", "icon": "mdi:file-search-outline" },
+        { "name": "BRD Documentation", "icon": "mdi:file-document-edit-outline" },
+        { "name": "User Stories", "icon": "mdi:card-text-outline" },
+        { "name": "Agile Collaboration", "icon": "mdi:lightning-bolt-outline" },
+        { "name": "UI/UX Collaboration", "icon": "mdi:palette-outline" }
       ]
     },
+
     {
-      "title": "Frontend",
+      "title": "Technical Skills",
       "skills": [
-        { "name": "Astro", "level": 2, "icon": "skill-icons:astro" },
-        { "name": "HTML", "level": 2, "icon": "skill-icons:html" },
-        { "name": "CSS", "level": 2, "icon": "skill-icons:css" },
-        { "name": "Tailwind CSS", "level": 1, "icon": "skill-icons:tailwindcss-dark" }
+        { "name": "Systems Modeling", "icon": "mdi:graph-outline" },
+        { "name": "SQL", "icon": "skill-icons:mysql-dark" },
+        { "name": "PostgreSQL", "icon": "skill-icons:postgresql-dark" },
+        { "name": "Microsoft Excel", "icon": "vscode-icons:file-type-excel" },
+        { "name": "Power BI", "icon": "mdi:chart-bar" },
+        { "name": "HTML", "icon": "skill-icons:html" },
+        { "name": "CSS", "icon": "skill-icons:css" }
       ]
     },
+
     {
-      "title": "Backend",
+      "title": "Tools",
       "skills": [
-        { "name": "FastAPI", "level": 2, "icon": "skill-icons:fastapi" },
-        { "name": "Python", "level": 2, "icon": "skill-icons:python-dark" },
-        { "name": "Firebase", "level": 3, "icon": "vscode-icons:file-type-firebase" }
+        { "name": "Microsoft Office", "icon": "mdi:microsoft-office" },
+        { "name": "Visual Studio", "icon": "skill-icons:visualstudio-dark" },
+        { "name": "Claude AI", "icon": "mdi:robot-outline" },
+        { "name": "Canva", "icon": "mdi:brush-variant" },
+        { "name": "Figma", "icon": "skill-icons:figma-dark" },
+        { "name": "Firebase", "icon": "vscode-icons:file-type-firebase" }
       ]
     },
+
     {
-      "title": "Database",
+      "title": "Soft Skills",
       "skills": [
-        { "name": "SQLite", "level": 3, "icon": "skill-icons:sqlite" },
-        { "name": "PostgreSQL", "level": 2, "icon": "skill-icons:postgresql-dark" }
+        { "name": "Analytical Thinking", "icon": "mdi:brain" },
+        { "name": "Problem Solving", "icon": "mdi:lightbulb-on-outline" },
+        { "name": "Attention to Detail", "icon": "mdi:magnify" },
+        { "name": "Communication", "icon": "mdi:account-voice" },
+        { "name": "Adaptability", "icon": "mdi:sync" },
+        { "name": "Teamwork", "icon": "mdi:account-group-outline" },
+        { "name": "Self Learning", "icon": "mdi:school-outline" },
+        { "name": "Time Management", "icon": "mdi:clock-outline" }
       ]
     }
   ]
